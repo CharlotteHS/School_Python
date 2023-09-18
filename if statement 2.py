@@ -20,6 +20,11 @@ elif choice in wrong:
     print("Your input isnt upper case, learn to read")
 #using 'in' refers back to the list to check if its lower case
 
+elif int(choice):
+    print("You have entered an invalid character")
+
 else:
     print("You've done something wrong")
 #if you haven't used a lower case or upper case 'c' or 'i'
+
+
