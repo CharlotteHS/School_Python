@@ -3,8 +3,19 @@ import random
 
 rps = ["rock", "paper", "scissors"]
 
-move = random.choice(rps)
+computer_move = random.choice(rps)
 
+player_move = input("Enter your move here::: ")
 
+if player_move == "rock":
+    print(computer_move)
 
-print(move)
+    if computer_move == "rock":
+        print("It's a draw")
+
+    if computer_move == "paper":
+        print("Computer wins")
+
+    if computer_move == "scissors":
+        print("You win")
+        
