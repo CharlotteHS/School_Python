@@ -38,3 +38,15 @@ def Sinput():
     gender = input("Gender: ")
     group = input("Form Group: ")
     email = input("School Email: ")
+
+s1 = []
+s2 = []
+s3 = []
+s4 = []
+
+Sinput()
+
+print("Currently adding student info")
+s1.append(Sinput) 
+
+print("Student 1's information: ",(s1))

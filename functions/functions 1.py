@@ -23,8 +23,8 @@ def display_program():
 
 
 for tv in range(4):
-    #created a loop to reduce
-    #created a variable whic starts at 0 and increases with each loop
+    #created a loop to reduce amount of code needed
+    #created a variable (tv) which automatically starts at 0 and increases with each loop
     display_time()
     program = programs[tv]
     time = times[tv]
