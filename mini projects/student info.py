@@ -50,3 +50,7 @@ print("Currently adding student info")
 s1.append(Sinput) 
 
 print("Student 1's information: ",(s1))
+
+#not working so i gave up
+#13/10/23
+#22:09
