@@ -4,7 +4,7 @@
 while True:
 
     username = input("Enter your username here: ")
-    if username == "SwanT":
+    if username == "Tswan":
         password = input("Enter your password here: ")
         #constants
 
@@ -24,5 +24,17 @@ optA = input("Enter: ")
 if optA == "A" or "a":
     print("Entering Student Menu")
 
-def Smenu():
-    s1 = str["id no.", "name", "sirname", "dob", "home address", "hone phone", "gender", "tutor group", "email" ]
+def Sinput():
+    #s1 = str["id no.", "name", "sirname", "dob", "home address", 
+    # "home phone", "gender", "tutor group", "email" ]
+
+    print("Please enter the students information")
+    Id = input("ID: ")
+    name = input("Firstname: ")
+    last = input("Lastname: ")
+    dob = input("d.o.b: ")
+    address = input("Home Address: ")
+    phone = input("Home Phone: ")
+    gender = input("Gender: ")
+    group = input("Form Group: ")
+    email = input("School Email: ")
