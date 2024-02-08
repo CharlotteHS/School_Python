@@ -33,4 +33,5 @@ def display_message():
 
 b5 = Button(screen,text="Click me",command=display_message)
 b5.place(x=189, y=200)
-    
+
+screen.mainloop()
