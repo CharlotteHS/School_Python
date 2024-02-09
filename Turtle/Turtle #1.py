@@ -3,6 +3,7 @@ import turtle
 
 pen1 = turtle.Turtle()
 pen2 = turtle.Turtle()
+#3rd pen for a smiley face ????
 #creating the turtles
 
 myScreen = turtle.Screen()
@@ -46,4 +47,55 @@ pen1.left(90)
 pen1.forward(40)
 pen1.back(80)
 pen1.penup()
+pen1.right(90)
+pen1.forward(15)
 
+#E
+pen1.pendown()
+pen1.left(90)
+pen1.forward(80)
+pen1.right(90)
+pen1.forward(40)
+pen1.back(40)
+pen1.right(90)
+pen1.forward(40)
+pen1.left(90)
+pen1.forward(40)
+pen1.back(40)
+pen1.right(90)
+pen1.forward(40)
+pen1.left(90)
+pen1.forward(40)
+pen1.penup()
+pen1.forward(15)
+
+#LL
+pen1.pendown()
+pen1.left(90)
+pen1.forward(80)
+pen1.back(80)
+pen1.right(90)
+pen1.forward(40)
+pen1.penup()
+pen1.forward(15)
+
+pen1.pendown()
+pen1.left(90)
+pen1.forward(80)
+pen1.back(80)
+pen1.right(90)
+pen1.forward(40)
+pen1.penup()
+pen1.forward(15)
+
+#O
+pen1.down()
+pen1.left(90)
+pen1.forward(80)
+pen1.right(90)
+pen1.forward(40)
+pen1.right(90)
+pen1.forward(80)
+pen1.right(90)
+pen1.forward(40)
+pen1.penup()
