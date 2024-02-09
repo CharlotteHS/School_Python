@@ -48,15 +48,17 @@ def red():
 def green():
     messagebox.showinfo("Colour: Green", "Kiwis :)")
 
-def green():
+def blue():
     messagebox.showinfo("Colour: Blue", "Blueberries :(")
 
 red = Button(screen, text="RED", fg="white", bg="red", command=red)
 red.grid(row=1, column=1)
 
 
-green = Button(screen, text="GREEN", fg="white", bg="green", command=red)
+green = Button(screen, text="GREEN", fg="white", bg="green", command=green)
 green.grid(row=1, column=3)
 
-blue = Button(screen, text="BLUE", fg="white", bg="blue", command=red)
+blue = Button(screen, text="BLUE", fg="white", bg="blue", command=blue)
 blue.grid(row=1, column=5)
+
+screen.mainloop()
