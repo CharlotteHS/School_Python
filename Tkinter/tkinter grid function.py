@@ -7,6 +7,10 @@ screen.geometry("400x400")
 screen.title("Grid Function Testing")
 #basic stuff :]
 
+app = Frame(screen)
+app.grid()
+#setting a grid the size of the screens frame
+
 def dis1():
     messagebox.showinfo("Idiot", "Your already in settings")
 settings = Button(screen, text="Settings", command=dis1)

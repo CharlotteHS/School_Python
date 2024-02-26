@@ -10,6 +10,10 @@ screen.config(menu=menubar)
 screen["bg"] = "grey"
 commandsmenu = Menu(menubar, tearoff=0)
 
+app = Frame(screen)
+app.grid()
+#setting a grid the size of the screens frame
+
 
 def death():
     screen.destroy()
