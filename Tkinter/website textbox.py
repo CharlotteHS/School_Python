@@ -11,6 +11,15 @@ screen.config(menu=menubar)
 help_menu = Menu(menubar, tearoff=0)
 menubar.add_cascade(label="Help", menu=help_menu)
 
+def Q():
+    messagebox.showinfo("Loading... :)", "nvm idk/idc")
+
+def death():
+    screen.destroy()
+
+help_menu.add_command(label="Help", command=Q)
+help_menu.add_separator()
+help_menu.add_command(label="Exit", command=death)
 
 app = Frame(screen)
 app.grid()
