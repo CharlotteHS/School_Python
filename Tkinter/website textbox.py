@@ -33,11 +33,9 @@ input_one = Text(width=20, height=1)
 input_one.grid(row=2, column=1, padx=10, pady=4)
 
 def cont():
-    messagebox.showinfo("Loading..., Signing in")
+    messagebox.showinfo("Loading...", "Signing in")
 
 sign_in = Button(screen, text="Sign In", command=cont)
-sign_in.grid(row=5, column=1)
-
-
+sign_in.grid(row=3, column=1, padx=0, pady=5)
 
 screen.mainloop()
