@@ -67,6 +67,7 @@ tos = IntVar()
 consent = IntVar()
     #creating the variables
 #this allows you to tick of multiple things
+
 tickbox1 = Checkbutton(screen, text="ToS", width = 30, variable = tos)
 tickbox1.grid(row=5, column=1, padx=1, pady=1)
 
