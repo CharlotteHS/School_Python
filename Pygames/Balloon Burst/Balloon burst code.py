@@ -3,7 +3,7 @@ import pygame
 import random
 pygame.init()
 
-screen = pygame.display.set_mode([400,400])
+screen = pygame.display.set_mode([800,400])
 #setting the width and height
 pygame.display.set_caption("Balloon Burst :)")
 #naming the window
